@@ -24,8 +24,9 @@ Processed single-cell RNA sequencing (scRNA-seq) data is available. A compressed
 
 I created new directories for each sample (totaling 8 directories), with each directory containing the matrix.tsv, features.tsv, and barcode.tsv files. Since the barcodes folder had individual files, I used a Python script to combine all the individual barcode files for each sample into a single file.
 
-Python script:
-"import os
+# Python script:
+``` python
+import os
 # Set the path to the folder containing your barcode files
 barcode_folder = "path/to/the/folder"
 
@@ -36,7 +37,6 @@ barcode_files = [f.split('.')[0] for f in os.listdir(barcode_folder) if os.path.
 with open('barcodes.tsv', 'w') as f:
     for barcode in barcode_files:
         f.write(barcode + '\n')
-"
 
 
 
