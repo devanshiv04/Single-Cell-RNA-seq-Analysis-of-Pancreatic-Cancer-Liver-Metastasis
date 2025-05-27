@@ -1,6 +1,7 @@
 ## Single-Cell RNA-seq Analysis of Pancreatic Cancer Liver Metastasis
 
 Citation: Zhang, S., Fang, W., Zhou, S. et al. Single cell transcriptomic analyses implicate an immunosuppressive tumor microenvironment in pancreatic cancer liver metastasis. Nat Commun 14, 5123 (2023). https://doi.org/10.1038/s41467-023-40727-7
+
 Data Type: Processed single-cell RNA sequencing (scRNA-seq) data
 Samples: 8 total
 
